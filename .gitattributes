@@ -1,0 +1,16 @@
+# Configuration for git attributes   
+
+src/**/*.ts linguist-detectable
+*.png binary
+
+package-lock.json linguist-generated
+*.svg text
+src/**/*.tsx linguist-detectable
+public/**/*.html linguist-vendored
+*.min.css linguist-generated
+*.gif binary
+public/*.html linguist-vendored
+
+yarn.lock linguist-generated
+
+# eof 470db34c
